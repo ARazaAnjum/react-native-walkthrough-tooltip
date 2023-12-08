@@ -403,7 +403,7 @@ class Tooltip extends Component {
             adjustedContentSize: this.state.adjustedContentSize,
             anchorPoint: this.state.anchorPoint,
             arrowSize: this.props.arrowSize,
-            renderOwnTooltipArrow: this.props.this.props.renderOwnTooltipArrow,
+            renderOwnTooltipArrow: this?.props?.renderOwnTooltipArrow,
             displayInsets: this.state.displayInsets,
             measurementsFinished: this.state.measurementsFinished,
             ownProps: { ...this.props },
